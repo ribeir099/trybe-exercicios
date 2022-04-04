@@ -1,6 +1,10 @@
 h1, h3, ul {
     text-align: center;
   }
+
+  ul {
+      list-style: none;
+  }
   
 
   .first {
