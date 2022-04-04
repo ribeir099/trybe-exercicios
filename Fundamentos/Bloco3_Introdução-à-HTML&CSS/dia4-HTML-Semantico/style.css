@@ -5,6 +5,10 @@ h1, h3, ul {
   ul {
       list-style: none;
   }
+
+  ul.premiacao li {
+      display: inline;
+  }
   
 
   .first {
