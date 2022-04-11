@@ -8,6 +8,11 @@ let leitor = {
         autor: 'Daniela Kopsch',
         editora: 'Tordesilhas',
       },
+      {
+        titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+        autor: 'JK Rowling',
+        editora: 'Rocco',
+      },
     ],
   };
 
