@@ -7,3 +7,7 @@ let names = {
 for(let key in names){
     console.log("Olá", names[key]);
 }
+
+for(let key in names){
+    console.log(key, "Olá", names[key]);
+}
