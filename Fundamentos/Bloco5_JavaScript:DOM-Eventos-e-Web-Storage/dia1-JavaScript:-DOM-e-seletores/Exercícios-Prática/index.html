@@ -74,6 +74,15 @@
         document.getElementsByTagName('h1')[0].innerText = 'Exercício 5.1 - JavaScript';
        }
        correctText();
+       // QUESTÃO 5
+       function lettersBig(){
+        const size = document.getElementsByTagName('p').length;
+        for (let index = 0; index < size; index += 1){
+            var grande = document.getElementsByTagName('p')[index].innerText.toUpperCase();
+            document.getElementsByTagName('p')[index].innerText = grande;
+         }
+       }
+       lettersBig();
        
     </script>
   </body>
