@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">TrybeTrip</h1>
+    </header>
+
+    <main>
+        <form action="" method="get">
+            <fieldset>
+                <div id="nome">
+                    <label for="nome-input" id="label-nome">
+                        Nome Completo: 
+                        <input type="text" name="nome-input" id="nome-input" minlength="10" maxlength="40">
+                    </label>
+                </div>
+                <br>
+                <div id="email">
+                    <label for="email-input" id="label-email">
+                        E-mail: 
+                        <input type="text" name="email-input" id="email-input" minlength="10" maxlength="50">
+                    </label>
+                </div>
+                <br>
+                <div id="radio-options">
+                    Destino Preferido:
+                    <br>
+                    <label for="radio-option1">
+                        <input type="radio" name="radio-option" id="radio-option1"> Cidade
+                    </label>
+                    <label for="radio-option2">
+                        <input type="radio" name="radio-option" id="radio-option2"> Campo
+                    </label>
+                    <label for="radio-option3">
+                        <input type="radio" name="radio-option" id="radio-option3"> Praia
+                    </label>
+                    <label for="radio-option4">
+                        <input type="radio" name="radio-option" id="radio-option4"> Montanhas
+                    </label>
+                </div>
+                <br>
+                <div id="write-space">
+                    <label for="text-answer" id="label-write-space">
+                        Espaço para digitar a resposta: 
+                        <br>
+                        <textarea name="answer" id="text-answer" cols="40" rows="10" maxlength="500"></textarea>
+                    </label>
+                </div>
+                <br>
+                <div id="data">
+                    Qual a melhor data para realizar sua viagem?
+                    <label for="date" id="label-date">
+                        <input type="date" name="data" id="date">
+                    </label>
+                </div>
+                <br>
+                <div id="checkboxes">
+                    <label for="agree1">
+                        Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? 
+                        <input type="checkbox" name="concordo1" id="agree1">
+                    </label>
+                    <br>
+                    <label for="agree2">
+                        Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. 
+                        <input type="checkbox" name="concordo2" id="agree2" required>
+                    </label>
+                </div>
+            </fieldset>
+            <br>
+            <button type="submit" id="sendButton">Enviar</button>
+            <button type="reset">Apagar</button>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
